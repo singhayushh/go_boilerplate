@@ -1,10 +1,8 @@
 package main
 
-import (
+import "boilerplate_golangfront/handlers"
 
-)
-
-var router = handlers.Router
+var server = handlers.Server{}
 
 func main() {
 
@@ -16,6 +14,6 @@ func main() {
 		}
 	*/
 
-	router.Init(":80")
+	server.Init(":80")
 
 }
