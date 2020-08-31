@@ -23,6 +23,7 @@ func (server *Server) Init(port string) {
 	server.Router.Static("/css", "views/css")
 	server.Router.Static("/fonts", "views/fonts")
 	server.Router.Static("/img", "views/img")
+	server.Router.Static("/js", "views/js")
 
 	fmt.Println("Server started.\nListening on 127.0.0.1/")
 	server.Router.Run(port)
