@@ -3,10 +3,12 @@ Boilerplate for serving static pages using golang
 
 ### Directory Structure:
 > As this is a boilerplate for just rendering static files, I have used just a single handler sub-directory
+```
 /
     - /handlers: package for handling the api calls. This is where the actual server side code lies.
     - /views: this directory is home to frontend files - index.html, css, js, img etc.
     - main.go: this is the entry point to the server.
+ ```
 
 ### How to start the web server:
 - Clone this repository to your local system and open the terminal in the cloned directory.
